@@ -1,0 +1,9 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "cmd+alt+s", "command": "workbench.action.files.saveAll",
+                          "when": "editorTextFocus" },
+    { "key": "enter",                 "command": "-acceptSelectedSuggestionOnEnter",
+                                     "when": "config.editor.acceptSuggestionOnEnter && editorTextFocus && suggestWidgetVisible" },
+    { "key": "shift+cmd+[", "command": "workbench.action.previousEditor"},
+    { "key": "shift+cmd+]", "command": "workbench.action.nextEditor"}
+]

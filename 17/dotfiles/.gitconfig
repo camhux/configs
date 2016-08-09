@@ -1,0 +1,14 @@
+[user]
+	name = Cameron Martin
+	email = cmartin@simplymeasured.com
+[alias]
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  st = status
+  co = checkout
+  cdiff = diff --cached
+[color]
+  ui = true
+[push]
+  default = simple
+[credential]
+	helper = osxkeychain
