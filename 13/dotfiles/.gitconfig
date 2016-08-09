@@ -1,0 +1,18 @@
+[user]
+	name = camhux
+	email = camzig@gmail.com
+[core]
+	autocrlf = input
+	safecrlf = true
+[alias]
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  st = status
+  co = checkout
+  prum = pull --rebase upstream master
+  cdiff = diff --cached
+[credential]
+	helper = osxkeychain
+[color]
+    ui = true
+[push]
+	default = simple
