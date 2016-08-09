@@ -72,8 +72,6 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 
 alias s="subl"
 alias s.="subl ."
-alias vs='open -a "Visual Studio Code"'
-alias vs.='vs .'
 alias chrome='open -a "Google Chrome" '
 
 alias npml='npm ls -l --depth=0'

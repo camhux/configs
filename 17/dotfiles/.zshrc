@@ -17,4 +17,3 @@ unalias heroku
 
 export NVM_DIR="/Users/cmartin/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-export EDITOR=nano
