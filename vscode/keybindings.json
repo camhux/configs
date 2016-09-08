@@ -7,5 +7,6 @@
     { "key": "shift+cmd+[", "command": "workbench.action.previousEditor"},
     { "key": "shift+cmd+]", "command": "workbench.action.nextEditor"},
     { "key": "alt+cmd+/", "command": "editor.action.blockComment",
-                            "when": "editorTextFocus" }
+                            "when": "editorTextFocus" },
+    { "key": "cmd+e", "command": "workbench.action.quickOpen" }
 ]
