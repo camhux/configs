@@ -6,6 +6,8 @@
 	<true/>
 	<key>AllowClipboardAccess</key>
 	<false/>
+	<key>AlternateMouseScroll</key>
+	<false/>
 	<key>AnimateDimming</key>
 	<false/>
 	<key>AppleAntiAliasingThreshold</key>
@@ -338,7 +340,7 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 223 599 388 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>251 254 796 473 0 0 1440 877 </string>
+	<string>251 280 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 80 1440 797 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
