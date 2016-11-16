@@ -8,5 +8,7 @@
     { "key": "shift+cmd+]", "command": "workbench.action.nextEditor"},
     { "key": "alt+cmd+/", "command": "editor.action.blockComment",
                             "when": "editorTextFocus" },
-    { "key": "cmd+e", "command": "workbench.action.quickOpen" }
+    { "key": "cmd+e", "command": "workbench.action.quickOpen" },
+    { "key": "cmd+m",          "command": "editor.action.jumpToBracket",
+                                "when": "editorTextFocus" }
 ]
