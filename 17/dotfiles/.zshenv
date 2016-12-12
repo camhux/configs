@@ -11,4 +11,9 @@ if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
 fi
 
 export GOPATH=$HOME/Code/go
+
+if [[ -d $HOME/bin ]]; then
+  export PATH=$HOME/bin:$PATH
+fi
+
 export PATH=$PATH:$GOPATH/bin
