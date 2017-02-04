@@ -1,5 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
 	"files.trimTrailingWhitespace": true,
-    "editor.acceptSuggestionOnEnter": false
+    "editor.acceptSuggestionOnEnter": false,
+    "window.zoomLevel": 0,
+    "emmet.triggerExpansionOnTab": false
 }
